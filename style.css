@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 75px;
+    background-color: #222222;
+}
+.container {
+    width: 1600px;
+    height: 75px;
+    margin: 0 auto;
+}
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.header__left {
+    display: flex;
+    align-items: center;
+}
+.header__right {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-left: 231px;
+}
+.form__search {
+    margin-left: 14px;
+}
+.cart{
+    margin-right: 239px;
+}
+.my_account {
+    margin-right: 33px;
+}
+.menu {
+    margin-right: 34px;
+}
+.promo{
+    height: 765px;
+    background-color: #F1E4E6;
+    width: 1600px;
+    margin: auto;
+;
+}
+.promo__content {
+    background-image: url(img/promo.png);
+    height: 765px;
+    width: 800px;
+    margin-right: 800px;
+   
+}
+.promo__text_big {
+  color: #222222;
+    font-weight: 900;
+font-size: 48px;   
+}
+.promo__text_mini{
+     color: #222222;
+    font-weight: 700;
+font-size: 32px;
+}
+.promo__text {
+ color: #222222;
+    font-weight: 900;
+    font-size: 48px;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    margin-top: 335.1px;
+    margin-left: 864px;
+    float: left;
+    width: 1600px;
+}
+.offer__content_mini {
+    width:   360px;
+    height: 260px;
+    background-color:  #ccc;
+
+}
+.offer__content_big {
+    width: 1440px;
+    height: 180px;
+    background-color: #eee;
+}
+.offer {
+    display: block;
+    padding-top: 63px;
+    padding-left: 230px;
+}
+.offer__content {
+      display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.featured_container {
+    padding-top: 496px;
+}
+.featured__heading {
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+
+}
+.featured_p {
+margin-bottom: 48px;   
+margin-top: 6px;
+text-align: center;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #9F9F9F;
+}
+.product {
+    margin-bottom: 30px;
+     width: 360px;
+    height: 581px;
+    position: relative;
+    background: #F8F8F8;
+}
+.product:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+.product:hover .product__add{
+    display: block;
+}
+.product:hover .product__img {
+    filter: brightness(50%)
+}
+.product__name {
+    padding: 24px 18px 193px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 25px;
+    text-decoration: none;
+    
+}
+.product__description {
+     margin-top: 12px;
+    margin-left: 17px
+    
+}
+.product__img {
+    width: 100%;
+}
+.product__prise {
+margin-left: 17px;
+font-size: 16px;
+line-height: 19px;
+color: #F16D7F;
+margin-top: 18px;
+
+}
+
+.box-product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 230px;
+}
